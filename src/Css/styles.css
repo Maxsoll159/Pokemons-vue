@@ -1,0 +1,9 @@
+html, body {
+    background-color: #f1f1f1;
+
+        background-image: url("https://i.imgur.com/OU7IDed.jpg") !important;
+        background-repeat:no-repeat;
+        background-position: center center;
+        height: 900px;
+    
+}

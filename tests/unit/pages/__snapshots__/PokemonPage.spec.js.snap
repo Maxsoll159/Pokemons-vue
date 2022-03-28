@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pokemonPage Component debe de hacer march con el snapshot cuando carge los pokemons 1`] = `
+<h1 class="titulo">QUE TANTO SABES DE POKEMON</h1>
+<h1 class="respuesta">Respuestas correctas: 0</h1>
+<h1 class="respuesta">Vidas </h1>
+<div><img src="" alt="" width="60" class="espacio"><img src="" alt="" width="60" class="espacio"><img src="" alt="" width="60" class="espacio"></div>
+<!--v-if-->
+<!--v-if-->
+<div>
+  <h1 class="respuesta">¿Quien es este Pokemon?</h1><!-- IMAGEN DEL POKEMON-->
+  <pokemon-picture-stub pokemonid="2" showpokemon="false"></pokemon-picture-stub><!-- OPCIONES-->
+  <pokemon-options-stub pokemons="[object Object],[object Object],[object Object],[object Object]"></pokemon-options-stub>
+  <!--v-if-->
+</div>
+`;
+
+exports[`pokemonPage Component debe de hacer math con el snapshot 1`] = `
+<h1 class="titulo">QUE TANTO SABES DE POKEMON</h1>
+<h1 class="respuesta">Respuestas correctas: 0</h1>
+<h1 class="respuesta">Vidas </h1>
+<div><img src="" alt="" width="60" class="espacio"><img src="" alt="" width="60" class="espacio"><img src="" alt="" width="60" class="espacio"></div>
+<!--v-if-->
+<!--v-if-->
+<h1>Espere por favor...</h1>
+`;
